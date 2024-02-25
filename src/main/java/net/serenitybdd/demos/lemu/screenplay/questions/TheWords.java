@@ -18,8 +18,4 @@ public class TheWords {
                 .describedAs("the number of characters")
                 .asInteger();
     }
-    public static Question<String> keywordDensity() {
-        return Text.of(WordCounterModel.MOST_REPEATED_WORD)
-                     .describedAs("list of density keyword");
-    }
 }

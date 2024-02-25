@@ -6,7 +6,6 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 
 public class AnalyzeText {
-
     public static Task withText(String text) {
         return Task.where("{0} enter text to analyze: " + text,
                 Enter.theValue(text)

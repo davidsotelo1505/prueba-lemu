@@ -1,3 +1,4 @@
+@wordcounter
 Feature: WordCounter Validation
 
   Scenario Outline: Validate WordCounter.net functionality number of word with different texts
@@ -21,6 +22,7 @@ Feature: WordCounter Validation
       | This is a sample text for WordCounter testing | 45         |
       | Another example for testing WordCounter       | 39         |
       | Test with numbers: 123 456 789                | 15         |
+
   @test
   Scenario Outline: Validate Keyword Density Section
     Given that David opens the WordCounter.net application
@@ -28,8 +30,8 @@ Feature: WordCounter Validation
     Then Then the application should correctly display the most repeated words with their repetitions in the Keyword Density section
       | word    | repetitions |
       | sample  | 4           |
-      | text | 4           |
+      | text    | 4           |
       | testing | 3           |
     Examples:
-      | textToAnalyze                                                            |
+      | textToAnalyze                                                                                     |
       | This is a sample text for WordCounter testing testing sample sample text text text sample testing |

@@ -11,7 +11,7 @@ import static io.cucumber.junit.platform.engine.Constants.FILTER_TAGS_PROPERTY_N
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("/features")
-@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@test")
+@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@wordcounter")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME,
         value = "io.cucumber.core.plugin.SerenityReporterParallel,pretty,timeline:target/test-results/timeline")
 public class CucumberTestSuite {

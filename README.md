@@ -1,4 +1,4 @@
-# Serenity BDD TodoMVC Demo
+# Serenity BDD Lumu Demo
 
 This project is a demonstration of how to use Serenity BDD with the Screenplay Pattern to test a web application.
 
